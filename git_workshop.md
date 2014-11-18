@@ -19,5 +19,33 @@ which stores the `sublime` command in your `EDITOR` env variable.
 ###Make a new repo
 - On the github homepage, click the `+` icon in the toolbar and create a new repository.
 - Give it a name, a description, make it public, initialize it with a `README`, and add a license.
+- To copy the repo to your own computer, copy the clone URL in the righthand sidebar of the repository page (it will end with `.git`), then run in your terminal:
 
+`git clone the_url_you_just_copied`
+- Switch directories to your repo, by running `cd name_of_your_repo`
+- Check you're in the right place by running `ls`
 
+###Add content
+- Make a new file in the repo. You can make a markdown file (ending in `.md`), which is what this tutorial is written in. It's basically a text file with special formatting.
+- Save the file.
+- Now, you're going to add it to your git repository. The general flow of adding a new file is:
+	- `pull` to load any changes to other people have made to your repo
+	- `add` the files you've changed to be staged (they're basically on deck)
+	- `commit` your changes, lumping all the added files into one update and describing it
+	- `push` your changes to the repo
+- The actual commands are:
+	- `git pull`
+	- `git add your_new_file` or `git add -A` to add all changed files
+	- `git commit -m "a message describing your changes"`
+	- `git push`
+
+###Collaborate!!
+- Now partner up, you're going to collaborate on an open source project
+- First, fork your partner's repo by clicking `Fork` in the top-right corner of his/her's repo's main page.
+- Clone your fork, and navigate to your fork's directory (see "Make a new repo" above for these steps)
+- Make some changes to the content!
+- On your fork, click the green "compare and review" button to submit a pull request.
+- Switch places with your partner
+
+###Build a team
+- In your own repo, you can navigate to `Settings` then `Collaborators` to add your partner as a permanent team member. Now he or she can push straight to the repo without having to submit a pull request.

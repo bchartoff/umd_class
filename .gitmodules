@@ -7,3 +7,18 @@
 [submodule "linux"]
 	path = linux
 	url = https://github.com/torvalds/linux.git
+[submodule "d3"]
+	path = d3
+	url = https://github.com/mbostock/d3.git
+[submodule "core"]
+	path = core
+	url = https://github.com/openelections/core.git
+[submodule "dat"]
+	path = dat
+	url = https://github.com/maxogden/dat.git
+[submodule "licensing"]
+	path = licensing
+	url = https://github.com/unitedstates/licensing.git
+[submodule "congress-legislators"]
+	path = congress-legislators
+	url = https://github.com/unitedstates/congress-legislators.git
