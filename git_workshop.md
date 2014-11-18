@@ -16,6 +16,15 @@ Next run in the terminal:
 
 which stores the `sublime` command in your `EDITOR` env variable.
 
+###Github tutorail
+These are bare bone notes, with the idea of slimming way down the amount of info you're blasted with. That being said, there are some great tutorials online, that are more in depth.
+
+- [General github tutorial](https://try.github.io/levels/1/challenges/19)
+- [Creating a new repo](https://help.github.com/articles/creating-a-new-repository/)
+- [Forking a repo](https://help.github.com/articles/fork-a-repo/)
+- [Submit a pull request](https://help.github.com/articles/using-pull-requests/)
+- [Adding collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/)
+
 ###Make a new repo
 - On the github homepage, click the `+` icon in the toolbar and create a new repository.
 - Give it a name, a description, make it public, initialize it with a `README`, and add a license.
