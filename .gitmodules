@@ -1,0 +1,9 @@
+[submodule "rails"]
+	path = rails
+	url = https://github.com/rails/rails.git
+[submodule "git"]
+	path = git
+	url = https://github.com/git/git.git
+[submodule "linux"]
+	path = linux
+	url = https://github.com/torvalds/linux.git
