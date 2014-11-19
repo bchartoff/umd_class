@@ -6,14 +6,15 @@
 - Next, download the [Sublime text editor](http://www.sublimetext.com/)
 - Some of the exercises below will require you to use a text editor, which will get launched automatically from the terminal. Your computer uses something called *environment variables* to store information, including information used when navigating the terminal (your default directory, for example). The current text editor stored in the `EDITOR` environment variable is something super unfriendly (most likley vim, nano, or emacs, which are editors that open up in the terminal and are tricky to navigate). To store sublime in your `EDITOR` variable, first run this in the terminal:
 
+`mkdir ~/bin`
 `ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/sublime`
 
 which creates a new command in the terminal called `sublime`. When you type `sublime` the Sublime editor will launch.
 
 Next, run in the terminal:
+`export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH`
 
 `export EDITOR='sublime -w'`
-`export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH`
 
 which stores the `sublime` command in your `EDITOR` env variable.
 
