@@ -16,8 +16,8 @@ Next run in the terminal:
 
 which stores the `sublime` command in your `EDITOR` env variable.
 
-###Github tutorail
-These are bare bone notes, with the idea of slimming way down the amount of info you're blasted with. That being said, there are some great tutorials online, that are more in depth.
+###Github tutorial
+These are bare bones notes, with the idea of slimming way down the amount of info you're inundated with. That being said, here are some great tutorials online, which are more in depth.
 
 - [General github tutorial](https://try.github.io/levels/1/challenges/19)
 - [Creating a new repo](https://help.github.com/articles/creating-a-new-repository/)
@@ -31,6 +31,7 @@ These are bare bone notes, with the idea of slimming way down the amount of info
 - To copy the repo to your own computer, copy the clone URL in the righthand sidebar of the repository page (it will end with `.git`), then run in your terminal:
 
 `git clone the_url_you_just_copied`
+
 - Switch directories to your repo, by running `cd name_of_your_repo`
 - Check you're in the right place by running `ls`
 
@@ -39,8 +40,8 @@ These are bare bone notes, with the idea of slimming way down the amount of info
 - Save the file.
 - Now, you're going to add it to your git repository. The general flow of adding a new file is:
 	- `pull` to load any changes to other people have made to your repo
-	- `add` the files you've changed to be staged (they're basically on deck)
-	- `commit` your changes, lumping all the added files into one update and describing it
+	- `add` the files you've changed to be staged (they're basically getting put on deck)
+	- `commit` your changes, lumping all the added files into one update and describing it with a commit message
 	- `push` your changes to the repo
 - The actual commands are:
 	- `git pull`
@@ -50,11 +51,11 @@ These are bare bone notes, with the idea of slimming way down the amount of info
 
 ###Collaborate!!
 - Now partner up, you're going to collaborate on an open source project
-- First, fork your partner's repo by clicking `Fork` in the top-right corner of his/her's repo's main page.
-- Clone your fork, and navigate to your fork's directory (see "Make a new repo" above for these steps)
+- First, fork your partner's repo by clicking `Fork` in the top-right corner of his/her repo's main page.
+- Clone your fork, and navigate to your fork's directory (see "Make a new repo" above for the steps to clone a repo)
 - Make some changes to the content!
 - On your fork, click the green "compare and review" button to submit a pull request.
-- Switch places with your partner
+	- NB: it's possible to do every one of these steps from the command line, but for simplicity's sake we're doing some of them from github.com (pointing and clicking).
 
 ###Build a team
 - In your own repo, you can navigate to `Settings` then `Collaborators` to add your partner as a permanent team member. Now he or she can push straight to the repo without having to submit a pull request.
