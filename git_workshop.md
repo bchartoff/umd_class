@@ -10,9 +10,10 @@
 
 which creates a new command in the terminal called `sublime`. When you type `sublime` the Sublime editor will launch.
 
-Next run in the terminal:
+Next, run in the terminal:
 
 `export EDITOR='sublime -w'`
+`export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH`
 
 which stores the `sublime` command in your `EDITOR` env variable.
 
